@@ -1,0 +1,133 @@
+/* here start the code */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(99, 21, 21);
+    position: static;
+}
+/* Main header start here */
+div h1 {
+    font-size: 35px;
+    color: white;
+    font-family: serif ;
+}
+div.header{
+    /* background-color: aqua; */
+    height: 80px;
+    width:750px;
+    margin: auto;
+}
+p{
+    /* background-color: chartreuse; */
+    width:400px ;
+    position: relative;
+    left: 170px;
+    top: -18px;
+    color: rgb(197, 194, 194);
+}
+/* My menu start right here */
+div.menu{
+    position: absolute;
+    left:310px;
+    top: 60px;
+}
+.menu>ol{
+    float: left;
+    list-style-type: none;
+    background-color: rgb(85, 18, 18);
+    width: 750px;
+    left: 100px;
+    color: rgb(233, 221, 199);
+    
+}
+li{
+ display: inline-block;   
+ line-height: 15px;
+ padding: 15px 20px;
+ cursor: pointer;
+ font-size: 18px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li:hover{
+    background-color: cornsilk;
+    color: rgb(53, 49, 49);
+    transition: 0.5s ease-in-out ;
+}
+/* Info about page   */
+.pic{
+    background-color:rgb(58, 110, 49) ;
+    width: 750px;
+    margin-left: 310px;
+    position: absolute;
+    top: 105px;
+    height: 150px;
+    line-height: 20px;
+
+}
+#p{
+    color: rgb(245, 241, 233);
+    left: 220px;
+    font-family: sans-serif;
+    margin-top: -30px;
+}
+h2{
+    color: white;
+    margin-left: 220px;
+    font-family: serif;
+    padding-top:20px;
+    font-size: 2rem;
+}
+img{
+    margin-left: 65px;
+    margin-top: -20px;
+}
+/* main section begins here */
+.jemmo{
+    background-color: rgb(206, 204, 201);
+    width: 580PX;
+    height: 400px;
+    margin-left: 480px;
+    margin-top:180px;
+   
+    
+}
+h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 80px;
+    padding-top: 30px;
+    color: rgb(65, 166, 206);
+}
+.farat1{
+    color: black;
+    
+}
+.farat2{
+    color: black;
+    
+}
+.farat3{
+    color: black;
+    
+}
+.farat4{
+    color: black;
+    
+}
+.blabla{
+    margin-top: 40px;
+    margin-left: -90px;
+}
+/* last section  */
+.walat{
+    background-color:rgb(73, 122, 141);
+    width:170px;
+    margin-left: 310px;
+   margin-top: -400px;
+   height: 400px;
+   color: white;
+
+}
